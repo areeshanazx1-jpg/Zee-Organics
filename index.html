@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZEE ORGANICS</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-Ho3HojK0Nz6jjP/1HnUHxvLrrwu7EuqYqhGpY9whmJf4pUUGGg4+GDCb+3Zp0AuqQ1qoOx6jY5Xk2iR7D6u2Eg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script defer src="script.js"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-pHgXw0AB59nGZPRMvm1/sgYtE2O6OIKgic4IA52nj/1vBZhBSPFYdwh+BNCwIFg4nimPQFZV7jBjfT7Kz3aLVA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    <header class="site-header">
+        <nav class="navbar">
+            <a href="#" class="logo">ZEE ORGANICS</a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#why">Why Us</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" id="navToggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </nav>
+    </header>
+
+    <section id="hero" class="hero-section" data-aos="fade-down">
+        <div class="hero-content" data-aos="zoom-in">
+            <h1>ZEE ORGANICS</h1>
+            <p>Pure Nature for Healthier, Stronger Hair</p>
+            <a href="#products" class="btn">Explore</a>
+        </div>
+    </section>
+
+    <section id="about" class="about-section fade-in" data-aos="fade-up">
+        <div class="container">
+            <h2>About ZEE ORGANICS</h2>
+            <p>At ZEE ORGANICS, we craft herbal haircare solutions free from harsh chemicals. Our products harness the power of nature to nurture and protect, ensuring healthier, stronger hair with every use. Discover our commitment to purity and sustainable beauty as we blend traditional herbal wisdom with modern care.</p>
+        </div>
+    </section>
+
+    <section id="products" class="products-section fade-in" data-aos="fade-up">
+        <div class="container">
+            <h2>Our Products</h2>
+            <div class="product-grid" data-aos="fade-up" data-aos-delay="100">
+                <!-- Product card template -->
+                <div class="product-card">
+                    <img src="herbal.jpeg" alt="Nature Glow Amla Reetha Shampoo" class="product-img">
+                    <h3><strong>Nature Glow Amla Reetha Shampoo</strong></h3>
+                    <p class="tagline"><strong>Nature in Every Drop</strong></p>
+                    <p>A gentle formula enriched with herbs for everyday cleansing and
+                       nourishment.</p>
+                    <p><strong>Benefits:</strong></p>
+                    <ul class="benefits">
+                        <li>✔ Promotes natural hair growth</li>
+                        <li>✔ Reduces hair fall</li>
+                        <li>✔ Strengthens roots</li>
+                        <li>✔ Adds natural shine</li>
+                    </ul>
+                    <a href="" class="btn order-btn small-btn" data-product="Nature Glow Amla Reetha Shampoo">Order Now</a>
+                </div>
+
+                <div class="product-card">
+                    <img src="keratin.jpeg" alt="Nature Glow Keratin Shampoo" class="product-img">
+                    <h3><strong>Nature Glow Keratin Shampoo</strong></h3>
+                    <p class="tagline"><strong>Nature in Every Drop</strong></p>
+                    <p>Strengthens hair with keratin and natural extracts to reduce
+                       breakage.</p>
+                    <p><strong>Benefits:</strong></p>
+                    <ul class="benefits">
+                        <li>✔ Smoothens frizz</li>
+                        <li>✔ Repairs damaged hair</li>
+                        <li>✔ Strengthens weak strands</li>
+                        <li>✔ Adds silky shine</li>
+                    </ul>
+                    <a href="" class="btn order-btn small-btn" data-product="Nature Glow Keratin Shampoo">Order Now</a>
+                </div>
+
+                <div class="product-card">
+                    <img src="aloevera.jpeg" alt="Nature Glow Aloe Vera Shampoo" class="product-img">
+                    <h3><strong>Nature Glow Aloe Vera Shampoo</strong></h3>
+                    <p class="tagline"><strong>Nature in Every Drop</strong></p>
+                    <p>Calming aloe formula that soothes the scalp and restores moisture.</p>
+                    <p><strong>Benefits:</strong></p>
+                    <ul class="benefits">
+                        <li>✔ Deep scalp hydration</li>
+                        <li>✔ Soothes irritation</li>
+                        <li>✔ Controls dandruff</li>
+                        <li>✔ Improves hair texture</li>
+                    </ul>
+                    <a href="" class="btn order-btn small-btn" data-product="Nature Glow Aloe Vera Shampoo">Order Now</a>
+                </div>
+
+                <div class="product-card">
+                    <img src="coconut.jpeg" alt="Nature Glow Coconut Milk Shampoo" class="product-img">
+                    <h3><strong>Nature Glow Coconut Milk Shampoo</strong></h3>
+                    <p class="tagline"><strong>Nature in Every Drop</strong></p>
+                    <p>Tropical coconut goodness to hydrate and add shine to your hair.</p>
+                    <p><strong>Benefits:</strong></p>
+                    <ul class="benefits">
+                        <li>✔ Deep nourishment</li>
+                        <li>✔ Prevents dryness</li>
+                        <li>✔ Softens rough hair</li>
+                        <li>✔ Boosts scalp health</li>
+                    </ul>
+                    <a href="" class="btn order-btn small-btn" data-product="Nature Glow Coconut Milk Shampoo">Order Now</a>
+                </div>
+
+                <div class="product-card">
+                    <img src="oil.jpeg" alt="Nature Glow Herbal Hair Oil" class="product-img">
+                    <h3><strong>Nature Glow Herbal Hair Oil</strong></h3>
+                    <p class="tagline"><strong>Nature in Every Drop</strong></p>
+                    <p>Rich herbal oil blend that nourishes and revitalizes scalp and
+                       strands.</p>
+                    <p><strong>Benefits:</strong></p>
+                    <ul class="benefits">
+                        <li>✔ Strengthens hair roots</li>
+                        <li>✔ Stimulates growth</li>
+                        <li>✔ Reduces hair thinning</li>
+                        <li>✔ Provides deep nourishment</li>
+                    </ul>
+                    <a href="" class="btn order-btn small-btn" data-product="Nature Glow Herbal Hair Oil">Order Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="why" class="why-section fade-in" data-aos="fade-up">
+        <div class="container">
+            <h2>Why Choose Us</h2>
+            <div class="features-grid">
+                <div class="feature-box">
+                    <span>✔</span>
+                    <p>100% Herbal Ingredients</p>
+                </div>
+                <div class="feature-box">
+                    <span>✔</span>
+                    <p>No Harsh Chemicals</p>
+                </div>
+                <div class="feature-box">
+                    <span>✔</span>
+                    <p>Suitable for All Hair Types</p>
+                </div>
+                <div class="feature-box">
+                    <span>✔</span>
+                    <p>Trusted Quality</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="reviews" class="reviews-section fade-in" data-aos="fade-up">
+        <div class="container">
+            <h2>What Our Customers Say</h2>
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <div class="stars">★★★★★</div>
+                    <p>“Absolutely love the Herbal Shampoo! My hair feels so soft and clean.”</p>
+                    <span>- Sara</span>
+                </div>
+                <div class="review-card">
+                    <div class="stars">★★★★★</div>
+                    <p>“The hair oil has transformed my scalp health. Highly recommend ZEE ORGANICS!”</p>
+                    <span>- Ali</span>
+                </div>
+                <div class="review-card">
+                    <div class="stars">★★★★★</div>
+                    <p>“No more chemicals, just natural goodness. My go‑to brand now.”</p>
+                    <span>- Fatima</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section fade-in" data-aos="fade-up">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>WhatsApp: <a href="https://api.whatsapp.com/send?phone=923006721427&text=Hello%2C%20I%20want%20to%20order%20from%20ZEE%20ORGANICS." target="_blank">+92 300 6721427</a></p>
+            <p>Location: Pakistan</p>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2026 ZEE ORGANICS. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#hero">Home</a>
+                <a href="#about">About</a>
+                <a href="#products">Products</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
